@@ -222,36 +222,6 @@
 
         };
 
-        // _.getSoapIcao = function () {
-        //     $.soap({
-        //         url: 'https://apidev.rocketroute.com/notam/v1/',
-        //         method: 'request',
-        //         SOAPAction:'urn:xmethods-notam#getNotam',
-        //         noPrefix: true,
-        //         data: {
-        //             REQWX: {
-        //                 USR: "shpan93@gmail.com",
-        //                 PASSWD: "a0582343629e93ff99a3284ca3560fe1",
-        //                 ICAO: "EGKA"
-        //             }
-        //         },
-        //         // HTTPHeaders: {                                  // additional http headers send with the $.ajax call, will be given to $.ajax({ headers: })
-        //         //    // "Content-Length" : 280
-        //         // },
-        //         success: function (soapResponse) {
-        //             console.log(soapResponse)
-        //             // do stuff with soapResponse
-        //             // if you want to have the response as JSON use soapResponse.toJSON();
-        //             // or soapResponse.toString() to get XML string
-        //             // or soapResponse.toXML() to get XML DOM
-        //         },
-        //         error: function (SOAPResponse) {
-        //             console.log(SOAPResponse)
-        //             // show error
-        //         }
-        //     });
-        // }
-
         return _;
     })();
     $(document).ready(function () {
