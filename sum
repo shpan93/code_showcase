@@ -1,0 +1,9 @@
+function sumConsecutives(s) {
+    return s
+    .map(el => ({
+       value: el,
+       count: s.filter(sel => sel === el).length
+    }))
+    .map(el => el.value * el.count)
+    .filter((el, i ,arr) => arr.indexOf(el) === i);
+    }
